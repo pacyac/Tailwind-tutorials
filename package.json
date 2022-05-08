@@ -1,19 +1,24 @@
 {
-  "name": "tailwind",
+  "name": "tailwind-tutorials",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "autoprefixer": "^9.8.8",
-    "postcss": "^7.0.39"
-  },
-  "devDependencies": {
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
-  },
   "scripts": {
     "build": "tailwind -i ./input.css -o ./css/main.css",
     "watch": "tailwind -i ./input.css -o ./css/main.css --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacyac/Tailwind-tutorials.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pacyac/Tailwind-tutorials/issues"
+  },
+  "homepage": "https://github.com/pacyac/Tailwind-tutorials#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
 }
